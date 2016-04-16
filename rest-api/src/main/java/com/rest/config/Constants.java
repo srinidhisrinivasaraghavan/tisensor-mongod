@@ -39,7 +39,7 @@ public class Constants {
             DATABASE_NAME      = "mydb";
             DATABASE_USERNAME  = "";
             DATABASE_PASSWORD  = "";
-            DATABASE_HOSTNAME  = "192.168.10.2";
+            DATABASE_HOSTNAME  = "localhost";
             DATABASE_PORT      = 27017;
             DATAPOINT_REST_URL = "http://localhost:8080/datapoint";
             NUMBER_OF_TISENSOR_SIMULATIONS = 3;

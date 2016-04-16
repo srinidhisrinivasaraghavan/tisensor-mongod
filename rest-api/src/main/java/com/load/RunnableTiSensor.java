@@ -47,6 +47,7 @@ public class RunnableTiSensor implements Runnable {
                     Constants.DATAPOINT_REST_URL,
                     datapoint);
         }catch(Exception e){
+        	logger.error("Sending datapoint to "+ Constants.DATAPOINT_REST_URL);
             logger.error("Failed to send datapoint! "+e);
         }
     }
